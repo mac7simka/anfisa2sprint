@@ -1,6 +1,5 @@
-from django.shortcuts import render
-from ice_cream.models import IceCream
 from django.shortcuts import get_object_or_404, render
+from ice_cream.models import IceCream
 
 
 def ice_cream_detail(request, pk):
